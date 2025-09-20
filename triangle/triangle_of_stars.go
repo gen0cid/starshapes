@@ -2,8 +2,8 @@ package triangle
 
 import "fmt"
 
-func PrintTriangle(v int) {
-	for i := 1; i <= v; i++ {
+func PrintTriangle(length int) {
+	for i := 1; i <= length; i++ {
 		for j := 1; j <= i; j++ {
 			fmt.Print("*")
 		}

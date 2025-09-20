@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"shapes/isoscelestriangle"
 	"shapes/rectangle"
 	"shapes/triangle"
 )
@@ -15,6 +16,8 @@ func main() {
 	fmt.Scan(&width)
 
 	rectangle.PrintRectangle(width, length)
+	fmt.Println("-----------------------------------------------------")
 	triangle.PrintTriangle(length)
-
+	fmt.Println("-----------------------------------------------------")
+	isoscelestriangle.PrintIsoscelesTriangle(length)
 }
