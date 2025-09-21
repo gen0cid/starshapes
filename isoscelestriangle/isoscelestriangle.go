@@ -13,7 +13,6 @@ func PrintIsoscelesTriangle(length int) {
 			}
 
 		}
-
 		fmt.Println()
 	}
 }
